@@ -5,11 +5,11 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 #import dash_daq as daq
 
-import dash_plots
+import src.dash_plots
 
 
-from data_mugging import clean_data
-import data_mugging
+from src.data_mugging import clean_data
+import src.data_mugging
 import pandas as pd
 
 suicide_dataset = pd.read_csv('data/master.csv')
